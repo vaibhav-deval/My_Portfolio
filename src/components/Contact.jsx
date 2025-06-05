@@ -1,6 +1,24 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
+
+  const downloadPDF = () => {
+  fetch("/resume.pdf")
+    .then((response) => response.blob())
+    .then((blob) => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Resume.pdf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(url);
+    })
+    .catch((error) => console.error("Error downloading PDF:", error));
+};
+
+
   return (
     <section id="contact" className="min-h-screen px-6 py-20 bg-white">
       <h3 className="text-3xl font-semibold mb-4">Contact Me</h3>
@@ -38,9 +56,8 @@ const Contact = () => {
       </div>
       <p className="mt-3">Email: vaibhavdeval004@gmail.com</p>
       <div className="text-white inline-block bg-green-700 border-0 px-8 py-3 mt-5 rounded-md hover:bg-green-600 transition-colors duration-300">
-        <a href="/Resume.pdf" download className="underline">
-          Download Resume
-        </a>
+        <button onClick={downloadPDF}>Download Resume</button>
+
       </div>
     </section>
   );
