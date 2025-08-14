@@ -3,15 +3,15 @@ const projectsList = [
   {
     title: "Portfolio Website",
     description: "Built with React and Tailwind, deployed on Vercel.",
-    imgUrl: "/src/assets/portfolio.png",
-    link: "",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/portfolio_mbh6tb.png",
+    link: "https://my-portfolio-vaibhav-devals-projects.vercel.app/",
   },
   {
     title: "E-Commerce Website",
     description:
       "Developed a responsive multi-page e-commerce site using the MERN stack. Integrated Tailwind CSS for design, Razorpay for payments, and built an admin panel for product management.",
-    imgUrl: "src/assets/e-commerce.png",
-    link: "",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/e-commerce_lktkix.png",
+    link: "https://github.com/vaibhav-deval/E-commerce",
   },
   {
     title: "Travel Expense Tracker",
@@ -22,46 +22,46 @@ const projectsList = [
   {
     title: "Grocery List App",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "src/assets/grocery.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/grocery_t3o2p3.png",
     link: "https://grocery-list-using-javascript.vercel.app/",
   },
   {
     title: "Weather App",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "src/assets/weather.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/weather_cakjfe.png",
     link: "https://weather-app-using-js-mu.vercel.app/",
   },
   {
     title: "Tic-Tac-Toe Game",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "src/assets/tic_tac_toe.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/todo_uz3dyn.png",
     link: "https://tic-tac-toe-using-javascript.vercel.app/",
   },
   {
     title: "Digital Clock app",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "src/assets/clock.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/clock_frzjxo.png",
     link: "https://digital-clock-using-javascript.vercel.app/",
   },
   {
     title: "Todo List app",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "src/assets/todo.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/todo_uz3dyn.png",
     link: "https://todo-list-using-javascript-eight.vercel.app/",
   },
   {
     title: "Real Time Chat App",
     description:
     "Built with html,css, Socket.io and Javascript deployed on Vercel.",
-    imgUrl: "src/assets/chat_app.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/chat_app_je0mgu.png",
     link: "",
   },
   {
     title: "Image Slider",
     description:
     "Built with html,css, and Javascript deployed on Vercel.",
-    imgUrl: "src/assets/image.png",
-    link: "",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/image_njhjkl.png",
+    link: "https://github.com/vaibhav-deval/Image_Slider_Using_JS",
   },
 ];
 
