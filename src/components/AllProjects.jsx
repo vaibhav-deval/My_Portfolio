@@ -34,7 +34,7 @@ const projectsList = [
   {
     title: "Tic-Tac-Toe Game",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
-    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/todo_uz3dyn.png",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/tic_tac_toe_xoi1fd.png",
     link: "https://tic-tac-toe-using-javascript.vercel.app/",
   },
   {
