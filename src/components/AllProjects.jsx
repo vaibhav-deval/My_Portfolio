@@ -14,6 +14,13 @@ const projectsList = [
     link: "",
   },
   {
+    title: "Travel Expense Tracker",
+    description: "A responsive and interactive web application built with React.js and Tailwind CSS to simplify trip expense management.This app allows users to create, edit, delete, and manage multiple trips, while keeping all data saved in localStorage for persistence across sessions.
+      "Developed a responsive multi-page e-commerce site using the MERN stack. Integrated Tailwind CSS for design, Razorpay for payments, and built an admin panel for product management.",
+    imgUrl: "https://res.cloudinary.com/dm5ciytad/image/upload/v1755190705/Screenshot_2025-08-14_222710_r17rht.png",
+    link: "https://vaibhav-projects.netlify.app/",
+  },
+  {
     title: "Grocery List App",
     description: "Built with HTML, CSS, and JavaScript, deployed on Vercel.",
     imgUrl: "src/assets/grocery.png",
