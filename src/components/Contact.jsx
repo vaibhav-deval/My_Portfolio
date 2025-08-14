@@ -39,7 +39,12 @@ const Contact = () => {
       </div>
       <p className="mt-3">Email: vaibhavdeval004@gmail.com</p>
       <div className="text-white inline-block bg-green-700 border-0 px-8 py-3 mt-5 rounded-md hover:bg-green-600 transition-colors duration-300">
-        <button target="_blank" href="https://drive.google.com/file/d/1NMVltLeUAY5kBybnNGnuX0tzPAvIZySJ/view?usp=sharing" >Download Resume</button>
+         <a
+          href="https://drive.google.com/file/d/1NMVltLeUAY5kBybnNGnuX0tzPAvIZySJ/view?usp=sharing"
+          target="_blank"
+          >
+           <button target="_blank"  >Download Resume</button>
+         </a>
 
       </div>
     </section>
